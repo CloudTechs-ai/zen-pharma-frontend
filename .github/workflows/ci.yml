@@ -37,7 +37,7 @@ jobs:
         run: npm ci
 
       - name: ESLint (--max-warnings 0)
-        run: npx eslint@8 src/ --ext .js,.jsx --max-warnings 0
+        run: npm run lint -- --max-warnings 0
 
   # ── 2. Unit Tests with Coverage ──────────────────────────────────────────
   test:
