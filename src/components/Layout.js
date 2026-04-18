@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Outlet, useNavigate, useLocation } from 'react-router-dom';
 import {
   AppBar, Box, CssBaseline, Drawer, IconButton, List,
   ListItem, ListItemButton, ListItemIcon, ListItemText,
-  Toolbar, Typography, Avatar, Tooltip
+  Toolbar, Typography, Tooltip
 } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import DashboardIcon from '@mui/icons-material/Dashboard';
