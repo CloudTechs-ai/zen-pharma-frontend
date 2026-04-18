@@ -1,6 +1,5 @@
 import React from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
-import { Box } from '@mui/material';
 import Layout from './components/Layout';
 import Dashboard from './pages/Dashboard';
 import DrugCatalog from './pages/DrugCatalog';

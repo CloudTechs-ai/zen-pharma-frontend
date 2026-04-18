@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Card, CardContent, Grid, Typography, CircularProgress } from '@mui/material';
+import { Box, Card, CardContent, Grid, Typography } from '@mui/material';
 import { useQuery } from 'react-query';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 import api from '../services/api';
