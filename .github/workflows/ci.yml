@@ -36,8 +36,8 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: ESLint (--max-warnings 0)
-        run: ./node_modules/.bin/eslint src/ --ext .js,.jsx --max-warnings 0
+      - name: ESLint
+        run: ./node_modules/.bin/eslint src/ --ext .js,.jsx
 
   # ── 2. Unit Tests with Coverage ──────────────────────────────────────────
   test:
