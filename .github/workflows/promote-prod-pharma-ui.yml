@@ -8,6 +8,7 @@ on:
   workflow_dispatch:
 
 permissions:
+  id-token: write
   contents: read
 
 env:
@@ -17,7 +18,7 @@ jobs:
 
   promote:
     name: Open PROD Promotion PR
-    runs-on: [self-hosted, linux, x64]
+    runs-on: ubuntu-latest
     environment: prod
 
     steps:
