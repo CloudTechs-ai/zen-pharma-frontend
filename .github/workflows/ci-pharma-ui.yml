@@ -9,6 +9,12 @@ on:
     branches: [develop, 'release/**']
   pull_request:
     branches: [main, develop]
+  workflow_dispatch:
+    inputs:
+      ref:
+        description: 'Branch to build'
+        required: false
+        default: 'develop'
 
 permissions:
   id-token: write
