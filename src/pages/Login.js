@@ -48,7 +48,7 @@ export default function Login() {
             </Button>
           </form>
           <Typography variant="caption" color="text.secondary" sx={{ mt: 2, display: 'block' }}>
-            Default: admin / admin123
+            Default: admin / changeme
           </Typography>
         </CardContent>
       </Card>
