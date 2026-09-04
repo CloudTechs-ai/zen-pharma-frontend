@@ -1,5 +1,8 @@
 import React from 'react';
+<<<<<<< HEAD
 import PropTypes from 'prop-types';
+=======
+>>>>>>> f33fa286d3e120021f6a3a990c0482cd25b43838
 import { Box, Card, CardContent, Grid, Typography } from '@mui/material';
 import { useQuery } from 'react-query';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';

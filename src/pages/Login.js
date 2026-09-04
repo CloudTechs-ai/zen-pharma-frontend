@@ -172,6 +172,7 @@ export default function Login() {
               {loading ? <CircularProgress size={24} color="inherit" /> : 'Sign In'}
             </Button>
           </form>
+<<<<<<< HEAD
 
           <Divider sx={{ my: 2.5 }} />
 
@@ -183,6 +184,11 @@ export default function Login() {
               <Box component="span" sx={{ fontWeight: 600, color: 'text.primary' }}>changeme</Box>
             </Typography>
           </Box>
+=======
+          <Typography variant="caption" color="text.secondary" sx={{ mt: 2, display: 'block' }}>
+            Default: admin / changeme
+          </Typography>
+>>>>>>> f33fa286d3e120021f6a3a990c0482cd25b43838
         </CardContent>
       </Card>
     </Box>

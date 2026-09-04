@@ -1,5 +1,9 @@
 import React from 'react';
+<<<<<<< HEAD
 import { Box, Button, Card, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Typography, CircularProgress, Alert } from '@mui/material';
+=======
+import { Box, Button, Card, CircularProgress, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Typography, Alert } from '@mui/material';
+>>>>>>> f33fa286d3e120021f6a3a990c0482cd25b43838
 import AddIcon from '@mui/icons-material/Add';
 import { useQuery } from 'react-query';
 import api from '../services/api';
